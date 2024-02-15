@@ -2,18 +2,96 @@
 <html>
     <style>
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid rgb(0, 0, 0, 0.3);
             border-collapse: collapse;
+        }
+        .mainDetails>summary {
+            list-style-type: none;
+            outline: none;
+            cursor: pointer;
+            border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+        }
+
+        .mainDetails>summary::-webkit-details-marker {
+            display: none;
+        }
+
+<!--        .mainDetails>summary::after {-->
+<!--            content: '+ ';-->
+<!--            text-align: Right-->
+<!--        }-->
+<!---->
+<!--        .mainDetails[open]>summary::after {-->
+<!--            content: '- ';-->
+<!--            text-align: Right;-->
+<!--        }-->
+
+        .mainDetails>summary {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+            font-weight: bold;
+        }
+
+        .mainDetails[open]>summary {
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+        }
+
+        .mainDetails[]>summary {
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+            font-weight: bold;
+        }
+
+        .secondaryDetails>summary {
+            list-style-type: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .secondaryDetails>summary::-webkit-details-marker {
+            display: none;
+        }
+
+<!--        .secondaryDetails>summary::before {-->
+<!--            content: '+ ';-->
+<!--            text-align: Right-->
+<!--        }-->
+<!---->
+<!--        .secondaryDetails[open]>summary::before {-->
+<!--            content: '- ';-->
+<!--            text-align: Right;-->
+<!--        }-->
+
+        .secondaryDetails>summary {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .secondaryDetails[open]>summary {
+            margin-bottom: 20px;
+        }
+
+        .secondaryDetails[]>summary {
+            margin-bottom: 20px;
         }
     </style>
     <body>
-        <details>
-            <summary>White</summary>
-            <details>
-                <summary>A: Flank openings</summary>
-                <details>
-                    <summary>Bird's Opening</summary>
-                    <table style="width:100%">
+        <details class="mainDetails">
+            <summary style="margin-left:0vw; font-weight:bold; ">
+                <h3 style="font-size: 1.05em; display:inline">White</h3>
+            </summary>
+            <details class="mainDetails">
+                <summary style="margin-left:1vw; font-weight:bold; ">
+                    <h3 style="font-size: 1.05em; display:inline">A: Flank openings</h3>
+                </summary>
+                <details class="mainDetails">
+                    <summary style="margin-left:2vw; font-weight:bold; ">
+                        <h3 style="font-size: 1.05em; display:inline">Bird's Opening</h3>
+                    </summary>
+                    <table style="width:100%; margin-left:3vw">
                         <tr>
                             <th>Tap to view in the app</th>
                             <th>Source</th>
@@ -25,11 +103,15 @@
                     </table>
                 </details>
             </details>
-            <details>
-                <summary>B: Semi-Open Games other than the French Defence</summary>
-                <details>
-                    <summary>Sicilian Defence</summary>
-                    <table style="width:100%">
+            <details class="mainDetails">
+                <summary style="margin-left:1vw; font-weight:bold; ">
+                    <h3 style="font-size: 1.05em; display:inline">B: Semi-Open Games other than the French Defence</h3>
+                </summary>
+                <details class="mainDetails">
+                    <summary style="margin-left:2vw; font-weight:bold; ">
+                        <h3 style="font-size: 1.05em; display:inline">Sicilian Defence</h3>
+                    </summary>
+                    <table style="width:100%; margin-left:3vw">
                         <tr>
                             <th>Tap to view in the app</th>
                             <th>Source</th>
@@ -41,11 +123,15 @@
                     </table>
                 </details>
             </details>
-            <details>
-                <summary>C: Open Games and the French Defence</summary>
-                <details>
-                    <summary>Italian (Giuoco Piano, Evans Gambit, Hungarian Defence, and Two Knights)</summary>
-                    <table style="width:100%">
+            <details class="mainDetails">
+                <summary style="margin-left:1vw; font-weight:bold; ">
+                    <h3 style="font-size: 1.05em; display:inline">C: Open Games and the French Defence</h3>
+                </summary>
+                <details class="mainDetails">
+                    <summary style="margin-left:2vw; font-weight:bold; ">
+                        <h3 style="font-size: 1.05em; display:inline">Italian (Giuoco Piano, Evans Gambit, Hungarian Defence, and Two Knights)</h3>
+                    </summary>
+                    <table style="width:100%; margin-left:3vw">
                         <tr>
                             <th>Tap to view in the app</th>
                             <th>Source</th>
@@ -56,25 +142,31 @@
                         </tr>
                     </table>
                 </details>
-                <details>
-                    <summary>Philidor Defence</summary>
-                    <table style="width:100%">
+                <details class="mainDetails">
+                    <summary style="margin-left:2vw; font-weight:bold; ">
+                        <h3 style="font-size: 1.05em; display:inline">Philidor Defence</h3>
+                    </summary>
+                    <table style="width:100%; margin-left:3vw">
                         <tr>
                             <th>Tap to view in the app</th>
                             <th>Source</th>
                         </tr>
                         <tr>
-                            <td><a href="https://openings-explorer.web.app/training/nDNgu9crPwalwotSEAu0">1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. d4 exd4 5. c3 dxc3 6. Bxf7+ (98 moves)</a></td>
+                            <td><a href="https://openings-explorer.web.app/training/nDNgu9crPwalwotSEAu0">1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. d4 exd4 5. c3 dxc3 6. Bxf7+ (xx moves)</a></td>
                             <td>Happy Anchoys Gambit</td>
                         </tr>
                     </table>
                 </details>
             </details>
-            <details>
-                <summary>D: Closed Games and Semi-Closed Games</summary>
-                <details>
-                    <summary>Queen's Gambit</summary>
-                    <table style="width:100%">
+            <details class="mainDetails">
+                <summary style="margin-left:1vw; font-weight:bold; ">
+                    <h3 style="font-size: 1.05em; display:inline">D: Closed Games and Semi-Closed Games</h3>
+                </summary>
+                <details class="mainDetails">
+                    <summary style="margin-left:2vw; font-weight:bold; ">
+                        <h3 style="font-size: 1.05em; display:inline">Queen's Gambit</h3>
+                    </summary>
+                    <table style="width:100%; margin-left:3vw">
                         <tr>
                             <th>Tap to view in the app</th>
                             <th>Source</th>
@@ -87,13 +179,19 @@
                 </details>
             </details>
         </details>
-        <details>
-            <summary>Black</summary>
-            <details>
-                <summary>C: Open Games and the French Defence</summary>
-                <details>
-                    <summary>Italian (Giuoco Piano, Evans Gambit, Hungarian Defence, and Two Knights)</summary>
-                    <table style="width:100%">
+        <details class="mainDetails">
+            <summary style="margin-left:0vw; font-weight:bold; ">
+                <h3 style="font-size: 1.05em; display:inline">Black</h3>
+            </summary>
+            <details class="mainDetails">
+                <summary style="margin-left:1vw; font-weight:bold; ">
+                    <h3 style="font-size: 1.05em; display:inline">C: Open Games and the French Defence</h3>
+                </summary>
+                <details class="mainDetails">
+                    <summary style="margin-left:2vw; font-weight:bold; ">
+                        <h3 style="font-size: 1.05em; display:inline">Italian (Giuoco Piano, Evans Gambit, Hungarian Defence, and Two Knights)</h3>
+                    </summary>
+                    <table style="width:100%; margin-left:3vw">
                         <tr>
                             <th>Tap to view in the app</th>
                             <th>Source</th>
@@ -104,10 +202,14 @@
                         </tr>
                     </table>
                 </details>
-                <summary>D: Closed Games and Semi-Closed Games</summary>
-                <details>
-                    <summary>Queen's Pawn Game, etc.</summary>
-                    <table style="width:100%">
+                <summary style="margin-left:1vw; font-weight:bold; ">
+                    <h3 style="font-size: 1.05em; display:inline">D: Closed Games and Semi-Closed Games</h3>
+                </summary>
+                <details class="mainDetails">
+                    <summary style="margin-left:2vw; font-weight:bold; ">
+                        <h3 style="font-size: 1.05em; display:inline">Queen's Pawn Game, etc.</h3>
+                    </summary>
+                    <table style="width:100%; margin-left:3vw">
                         <tr>
                             <th>Tap to view in the app</th>
                             <th>Source</th>
