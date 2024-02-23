@@ -3,50 +3,8 @@
         "color": "White",
         "volumes": [
             {
-                "title": "A: Flank openings",
-                "openings": [
-                    {
-                        "title": "Bird's Opening",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/djAl0axZOKs45EA41itr",
-                                "importText": "1. f4 (36 moves)",
-                                "sourceLink": "https://youtu.be/6wK5yZmQnDc",
-                                "sourceText": "Remote Chess Academy: The Most Underrated Chess Opening Part-2"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "B: Semi-Open Games other than the French Defence",
-                "openings": [
-                    {
-                        "title": "Sicilian Defence",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/CE15x8VlWKFsFLSpds1F",
-                                "importText": "1. e4 c5 2. c3 (63 moves)",
-                                "sourceLink": "https://youtu.be/VxV8l3x7hOg",
-                                "sourceText": "GothamChess: CRUSH the Sicilian Defense: The ALAPIN"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "title": "C: Open Games and the French Defence",
                 "openings": [
-                    {
-                        "title": "Philidor Defence",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/nDNgu9crPwalwotSEAu0",
-                                "importText": "1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. d4 (98 moves)",
-                                "sourceText": "Happy Anchoys: Sacrificing bishop"
-                            }
-                        ]
-                    },
                     {
                         "title": "Italian (Giuoco Piano, Evans Gambit, Hungarian Defence, and Two Knights)",
                         "data": [
@@ -71,87 +29,6 @@
                                 "importText": "1. d4 d5 2. c4 (32 moves)",
                                 "sourceLink": "https://youtu.be/mtsabsZ4wG4",
                                 "sourceText": "GothamChess: How To Play The Queen's Gambit"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "color": "Black",
-        "volumes": [
-            {
-                "title": "B: Semi-Open Games other than the French Defence",
-                "openings": [
-                    {
-                        "title": "Caro-Kann Defence",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/xhI49AU5IOsMvTTLyg8E",
-                                "importText": "1. e4 c6 (58 moves)",
-                                "sourceLink": "https://youtu.be/ebfzL_GwiIE",
-                                "sourceText": "GothamChess: How to CRUSH with the Caro-Kann!"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "C: Open Games and the French Defence",
-                "openings": [
-                    {
-                        "title": "French Defence",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/CXS3h3Pyzvl1yWl5Q5SK",
-                                "importText": "1. e4 e6 2. d4 d5 3. e5 c5 (43 moves)",
-                                "sourceLink": "https://youtu.be/fJ5-GAFR0bQ",
-                                "sourceText": "Chessfactor: The French Defense | Advance Variation | Chess Openings | IM Andrey Ostrovskiy"
-                            },
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/rAPMDI40if1y3cn2HHAG",
-                                "importText": "1. e4 e6 2. d4 d5 3. exd5 exd5 (45 moves)",
-                                "sourceLink": "https://youtu.be/TcxssORt9M8",
-                                "sourceText": "Chessfactor: The French Defense | Exchange Variation | Chess Openings | IM Andrey Ostrovskiy"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Vienna Game",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/12sBPcBjaAExCKVlxQAg",
-                                "importText": "1. e4 e5 2. Nc3 Nf6 (27 moves)",
-                                "sourceLink": "https://youtu.be/fXUOkFzVoX0",
-                                "sourceText": "Remote Chess Academy: WIN in 8 Moves Against the Vienna Gambit | TRAPS for Black"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Italian (Giuoco Piano, Evans Gambit, Hungarian Defence, and Two Knights)",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/Vzts1uv6PJTI5nkgB2Va",
-                                "importText": "1. e4 e5 2. Nf3 Nc6 3. Bc4 f5 (43 moves)",
-                                "sourceLink": "https://youtu.be/Y6-RXOh50_w",
-                                "sourceText": "Remote Chess Academy: The BEST Chess Opening Against 1.e4 - Every Move is a Trap!"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "D: Closed Games and Semi-Closed Games",
-                "openings": [
-                    {
-                        "title": "Queen's Pawn Game, etc.",
-                        "data": [
-                            {
-                                "importLink": "https://openings-explorer.web.app/training/NnyQJR0frXjosmpOS7yR",
-                                "importText": "1. d4 e5 (34 moves)",
-                                "sourceLink": "https://youtu.be/w7r5mP6rw1w",
-                                "sourceText": "GothamChess: WIN IN 8 MOVES: The Englund Gambit"
                             }
                         ]
                     }
